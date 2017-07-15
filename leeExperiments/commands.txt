@@ -1,0 +1,2 @@
+sox long.mp3 short.mp3 trim 0 00:10
+
