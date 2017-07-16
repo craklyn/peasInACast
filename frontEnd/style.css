@@ -1,7 +1,7 @@
 body {
   max-width: 433px;
   margin-left: 100px;
-  margin-top: 100px;
+  margin-top: 108px;
   /*background-size: 433px,881px;*/
   background-repeat: no-repeat;
   background-position: left 100px top 20px;
@@ -52,12 +52,24 @@ font-weight: 400;
 
 .section-header{
   color: green;
+  margin-bottom: 8px;
 }
 
 
 .container {
   margin-top: 20px;
 
+}
+
+.filter-section {
+  overflow: scroll;
+  overflow-x: hidden;
+
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
 }
 
 .filter-section > .row {
@@ -68,4 +80,10 @@ font-weight: 400;
 .filter-section > .row > .col-xs-4 {
   display: inline-block;
   float: none;
+}
+
+.btn-secondary {
+  margin-top: 10px;
+  background-color: lightblue;
+
 }
