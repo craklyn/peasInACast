@@ -26,10 +26,9 @@ doc_term$dimnames$Docs <- podcastData$episode
 
 tf_idf <- weightTfIdf(m = doc_term, normalize = TRUE)
 tf_idf_mat <- as.matrix(tf_idf)
+save(tf_idf_mat, file="matrix.Rdata")
+tf_idf_df <- as.data.frame(tf_idf_mat)
 
-
-write.matrix(tf_idf_mat, file=""
-
-
-
-
+library(MASS)
+#write.table(tf_idf_mat, file='tfidf_Data.csv', row.names = TRUE, col.names = TRUE)
+write.csv(tf_idf_df, file='tfidf_Data.csv')
