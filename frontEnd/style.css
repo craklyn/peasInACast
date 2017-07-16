@@ -5,6 +5,7 @@ body {
   /*background-size: 433px,881px;*/
   background-repeat: no-repeat;
   background-position: left 100px top 20px;
+  
 
 
 
@@ -18,6 +19,7 @@ position:fixed; /*You may also use fixed depending on your needs.*/
 left:0;
 top:0; /*If you want it at the bottom you probably want bottom:0 instead*/
 z-index: 999;
+pointer-events: none;
 }
 
 .jumbotron {
@@ -33,12 +35,37 @@ z-index: 999;
 .jumbotron h1{
 font-size: 30px;
 text-align: center;
+font-weight: 400;
 
 
 }
 .row {
   margin-left: 30px;
-  margin-top: 20px;
-  
+  max-width: 355px;
+  margin-bottom: -3px;
+  color: #666;
+}
 
+.row h4{
+  color: #111;
+}
+
+.section-header{
+  color: green;
+}
+
+
+.container {
+  margin-top: 20px;
+
+}
+
+.filter-section > .row {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.filter-section > .row > .col-xs-4 {
+  display: inline-block;
+  float: none;
 }
