@@ -1,0 +1,74 @@
+Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/EOFire Podcast/Christopher_Locchead_5.22.17.mp3
+{
+    "jobID": "w-eu_58e34468-92cb-44ae-841c-69a35bccf456"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/EOFire Podcast/David_Shriner-Cahn_5.22.17_3.mp3
+{
+    "jobID": "w-eu_5d970dd3-4d22-44ff-906f-72006286f0da"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/EOFire Podcast/David_Siteman_Garland_5.23.17.mp3
+{
+    "jobID": "w-eu_fb014d4e-8915-4c70-b893-a660433542a0"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/EOFire Podcast/Doren_Aldana_5.8.17.mp3
+{
+    "jobID": "w-eu_fb111388-90fe-4083-9ed6-89cf1a061fdc"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/EOFire Podcast/Hernan_Lopez_5.8.17.mp3
+{
+    "jobID": "w-eu_022ee322-0805-4729-87c9-9f5aa8568e05"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/EOFire Podcast/Kathleen_LeGrys_5.8.17.mp3
+{
+    "jobID": "w-eu_268fdcfa-cd04-459a-ae90-0309d28e6880"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/EOFire Podcast/Vanessa_Shaw_5.8.17.mp3
+{
+    "jobID": "w-eu_691a9363-d9d9-4d2a-9722-cca770ad0a58"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/Smart Passive Income Podcast/268_How_to_Up_Your_Online_and_Offline_Game_with_Jordan_Harbinger.mp3
+{
+    "jobID": "w-eu_edfa8169-e620-4483-9618-faf9deeca634"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/Smart Passive Income Podcast/269_How_to_Build_a_Massive_Community_Behind_Your_Physical_Product_with_Tom_from_Chubbies.mp3
+{
+    "jobID": "w-eu_ece68dd5-8654-4954-8482-a40a9aca6bdf"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/Smart Passive Income Podcast/270_SPI_270__What_You_Need_to_Know_Before_You__Get_Physical__with_Richie_Norton.mp3
+{
+    "jobID": "w-eu_bf2baefa-4530-49fe-b375-a0dc9d72d8ac"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/Smart Passive Income Podcast/271_An_Interview_with_Five-Minute_Journal_Founders_UJ_Ramdas_and_Alex_Ikonn.mp3
+{
+    "jobID": "w-eu_7eafac11-e75d-4bdd-b8d0-5957eceea5c1"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/Smart Passive Income Podcast/272_Starting_and_Running_a_Business_as_a_Couple_Featuring_the_Bakers.mp3
+{
+    "jobID": "w-eu_ce0d217d-afaf-413d-ab3b-3fb773f5d9b0"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/Smart Passive Income Podcast/273_7_Powerful_Things_That_Can_Happen_as_a_Result_of_Starting_a_Podcast.mp3
+{
+    "jobID": "w-eu_3c042fc8-e9e6-4b3d-b9ab-8d1a0c388bb6"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/Smart Passive Income Podcast/274_How_to_Avoid_the_Slimy_Sell_with_Chalene_Johnson.mp3
+{
+    "jobID": "w-eu_8d63d291-5452-4c5f-a0a2-76f4f44d650c"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/Freakonomics Radio/freakonomics_podcast053117.mp3
+{
+    "jobID": "w-eu_5a705aea-ebff-4cf8-8caf-b0b9a4972e83"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/Freakonomics Radio/freakonomics_podcast060717.mp3
+{
+    "jobID": "w-eu_55df5597-be65-4a83-bb0f-1a0c4d0ee05b"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/Freakonomics Radio/freakonomics_podcast061417.mp3
+{
+    "jobID": "w-eu_5a707eb6-4ac2-4a15-bb1f-1d219251fe86"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/Freakonomics Radio/freakonomics_podcast062117.mp3
+{
+    "jobID": "w-eu_147d0e1a-3b84-4dd5-b0b8-189c865faf24"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/Freakonomics Radio/freakonomics_podcast070517.mp3
+{
+    "jobID": "w-eu_75641a93-b1f3-453c-99bc-d4cf39914308"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/Freakonomics Radio/freakonomics_podcast071217.mp3
+{
+    "jobID": "w-eu_7bf788fb-620f-4425-b2af-7001cab0359e"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/How I Built This Podcast - NPR/Carol's Daughter- Lisa Price.mp3
+{
+    "jobID": "w-eu_511da009-f819-4d80-8eab-ec55548d669e"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/How I Built This Podcast - NPR/Five Guys- Jerry Murrell.mp3
+{
+    "jobID": "w-eu_fc5fec8c-6633-4087-940b-6f3b32fbca7e"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/How I Built This Podcast - NPR/Lonely Planet- Maureen & Tony Wheeler.mp3
+{
+    "jobID": "w-eu_bf3f48ff-a4f4-4933-8ac5-551047748df6"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/How I Built This Podcast - NPR/Rolling Stone- Jann Wenner.mp3
+{
+    "jobID": "w-eu_315ab23e-0167-4c48-a626-803ba9a6e5fa"
+}Now handling file /Users/LeoLe/Downloads/peasInACast/podcastAudio/How I Built This Podcast - NPR/Spanx- Sara Blakely.mp3
+
