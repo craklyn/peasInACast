@@ -63,6 +63,8 @@ font-weight: 400;
   max-width: 355px;
   margin-bottom: -3px;
   color: #666;
+  /*border-bottom: 1px solid;*/
+  /*border-bottom-color: green;*/
 }
 
 .row h4{
@@ -72,6 +74,11 @@ font-weight: 400;
 .section-header{
   color: green;
   margin-bottom: 8px;
+}
+
+.filter-section > .row > .inline-button {
+  display: inline-block;
+  float: none;
 }
 
 
