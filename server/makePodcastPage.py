@@ -4,6 +4,10 @@ import json
 import requests # Available from: http://docs.python-requests.org/en/master
 import subprocess
 import copy
+import pandas
+
+podcastData = pandas.read_csv('Podfinder-data.csv')
+
 
 def make_podcast_page(terms):
     podcastList = subprocess.check_output('Rscript ../tfidf/findMostSimilarPodcast.R ' + str(terms), shell=True)
@@ -65,16 +69,19 @@ def make_podcast_page(terms):
   <div>
     <div class="row section-header" >
       Recommended episodes
+    </div>""" + makePodcastEntries(podcastList) + """
+    <div>
+      <div class="row"><h4>SPI 265: Shane and Jocelyn Sams and Their Awesome Advertising Strategy</h4></div>
+      <div class="row">The smart passive income podcast DEBUG</div>
+      <div class="row">45 mins - May 10, 2017</div>
+      <div class="row">
+        <button type="button" class="btn btn-secondary">Play</button>
+        <button type="button" class="btn btn-secondary">Preview</button>
+        <button type="button" class="btn btn-secondary">Save</button>
+      </div>
+      <hr>
     </div>
-    <div class="row"><h4>SPI 265: Shane and Jocelyn Sams and Their Awesome Advertising Strategy</h4></div>
-    <div class="row">The smart passive income podcast</div>
-    <div class="row">45 mins - May 10, 2017</div>
-    <div class="row">
-      <button type="button" class="btn btn-secondary">Play</button>
-      <button type="button" class="btn btn-secondary">Preview</button>
-      <button type="button" class="btn btn-secondary">Save</button>
-    </div>
-    <hr>
+
     <div class="row"><h4>SPI 272: Starting and Running a Business as a Couple Featuring the Bakers</h4></div>
     <div class="row">The smart passive income podcast</div>
     <div class="row">43 mins - June 28, 2017</div>
@@ -182,3 +189,37 @@ def makeButton(buttonName, currentTerms):
       returnString += 'btn-secondary btn-sm'
     returnString += '">' + buttonName + '</a></div>'
     return returnString
+
+
+def makePodcastEntries(audioFile):
+  returnVal = ""
+
+  for rows in audioFile.split('\n'):
+    file = rows.split(',')[0]
+    thePodcast = podcastData.loc[podcastData['fileName'] == file]
+    #PodcastName,EpisodeName,PodcastTagline,PublishDate,PlayFile,TrimmedPlayFile,fileName = podcastData.loc[podcastData['fileName'] == file]
+
+    PodcastName = thePodcast['PodcastName'].iloc[0]
+    EpisodeName = thePodcast['EpisodeName'].iloc[0]
+    PodcastTagline = thePodcast['PodcastTagline'].iloc[0]
+    PublishDate = thePodcast['PublishDate'].iloc[0]
+    PlayFile = thePodcast['PlayFile'].iloc[0]
+    TrimmedPlayFile = thePodcast['TrimmedPlayFile'].iloc[0]
+    fileName = thePodcast['fileName'].iloc[0]
+
+    returnVal += """
+    <div>
+      <div class="row"><h4>""" + PodcastName + ": " + EpisodeName + """</h4></div>
+      <div class="row">""" + PodcastTagline + """</div>
+      <div class="row">Published: """ + PublishDate + """</div>
+      <div class="row">
+        <button type="button" class="btn btn-secondary">Play</button>
+        <button type="button" class="btn btn-secondary">Preview</button>
+        <button type="button" class="btn btn-secondary">Save</button>
+      </div>
+      <hr>
+    </div>
+"""
+
+  return returnVal
+
