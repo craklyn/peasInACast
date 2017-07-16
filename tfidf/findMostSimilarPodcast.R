@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
-args = commandArgs(trailingOnly=TRUE)
-#cat(args)
+args <- commandArgs(trailingOnly=TRUE)
+args <- tolower(args)
 
 setwd("~/peasInACast/tfidf")
 load("matrix.Rdata")
