@@ -22,3 +22,29 @@ How I Built This Podcast - NPR/Carol's Daughter- Lisa Price.mp3,w-eu_511da009-f8
 How I Built This Podcast - NPR/Five Guys- Jerry Murrell.mp3,w-eu_fc5fec8c-6633-4087-940b-6f3b32fbca7e
 How I Built This Podcast - NPR/Lonely Planet- Maureen & Tony Wheeler.mp3,w-eu_bf3f48ff-a4f4-4933-8ac5-551047748df6
 How I Built This Podcast - NPR/Rolling Stone- Jann Wenner.mp3,w-eu_315ab23e-0167-4c48-a626-803ba9a6e5fa
+How I Built This Podcast - NPR/Spanx- Sara Blakely.mp3,w-eu_8d962975-0306-4235-a165-1261ee6b9695
+How I Built This Podcast - NPR/TOMS- Blake Mycoskie.mp3,w-eu_9b757098-86c9-46dc-a8d8-bceb4b820da7
+How I Built This Podcast - NPR/TRX- Randy Hetrick.mp3,w-eu_6e74c117-fe97-4b6e-a301-075d4e0f0d44
+How I Built This Podcast - NPR/Whole Foods Market- John Mackey.mp3,w-eu_d6f498f1-8e63-4e5b-a965-da60f8ac57fd
+Masters of Scale/Beauty of a Bad Idea 11.mp3,w-eu_e444f1de-0027-4edf-834d-cfd66ca84ad6
+Masters of Scale/Grit 10 MIX.mp3,w-eu_2385df30-9df8-4c25-80b9-878c3027541d
+Masters of Scale/HandCrafted12.mp3,w-eu_15c4b6fa-2f1d-481f-b12f-cb78f3ff61f1
+Masters of Scale/Imperfect Is Perfect 10.2.mp3,w-eu_2e2983a0-b2f4-4fa9-912a-c3cce0b96c3f
+Masters of Scale/Innovation Managed Chaos MIX 10.mp3,w-eu_4977af03-2c68-42f9-9379-665e91fd2a1f
+Masters of Scale/Learn Learn Again MIX 10.mp3,w-eu_2b3e9fd3-7370-4712-b958-92a161a12f30
+Masters of Scale/The Money Episode 13.mp3,w-eu_cd44d844-ddfd-47cd-8a6e-05ac07567b07
+Online Marketing Podcast/Online_Marketing_Made_Easy_Podcast_Episode_162.mp3,w-eu_ca882ccb-8581-449f-9ed1-ec54110083e4
+Online Marketing Podcast/Online_Marketing_Made_Easy_Podcast_Episode_163.mp3,w-eu_451f574c-96b0-44d7-8a4c-3d6306ae7598
+Online Marketing Podcast/Online_Marketing_Made_Easy_Podcast_Episode_164.mp3,w-eu_0a692524-a5ab-4a2e-abe6-77a837ae4b41
+Online Marketing Podcast/Online_Marketing_Made_Easy_Podcast_Episode_165.mp3,w-eu_770fee64-dd1d-4e15-842d-f954851d3894
+Online Marketing Podcast/Online_Marketing_Made_Easy_Podcast_Episode_166.mp3,w-eu_136a70f0-f786-4714-942c-f0e9da669da5
+Online Marketing Podcast/Online_Marketing_Made_Easy_Podcast_Episode_167.mp3,w-eu_75c19878-71f2-41cb-bad7-ab87544f1068
+Online Marketing Podcast/Online_Marketing_Made_Easy_Podcast_Episode_168.mp3,w-eu_12111538-e19d-4145-8360-4f7f3f278b59
+Stuff You Should Know/2017-06-20-sysk-seed-banks-final.mp3_90e9138c47e1cbf1cad80d59daad0c57_19872969.mp3,w-eu_cc775612-b42b-4089-8213-aac337b0c843
+Stuff You Should Know/2017-06-22-sysk-ketchup-final.mp3_34b069629ea7fddeb21366131324e5e6_20705351.mp3,w-eu_dd2429ee-8e99-483a-bbf1-05c8dbdfa470
+Stuff You Should Know/2017-06-29-sysk-standardized-patients-final.mp3_e8c2e15c4c862ecb01c098aa26939c32_19490530.mp3,w-eu_7d420c21-cc76-4b3b-85e2-e1a753023343
+Stuff You Should Know/2017-07-04-sysk-stoicism-final.mp3_76e55cf8fa3710e51aaa775b2e4ae989_22329907.mp3,w-eu_5f6ba52b-e665-4956-8a40-a5f811a3d6e8
+Stuff You Should Know/2017-07-11-sysk-net-neutrality-final.mp3_d5ed347ad3530144aa49fb6a8ffe9066_23683949.mp3,w-eu_4753b561-c029-49c2-9f17-dba1e58996a9
+Stuff You Should Know/2017-07-13-sysk-fever-dreams-final.mp3_9c2a1bd8913418d28644b0f27316c5ae_14439900.mp3,w-eu_8e627470-51c2-417c-89ed-cd938aa56a71
+Stuff You Should Know/2017-07-15-sysk-amelia-earhart.mp3_a3bcd32f5f22988190fd8d19e42e5fda_11679237.mp3,w-eu_1313ef46-7c46-4483-b2eb-714c8366d18b
+

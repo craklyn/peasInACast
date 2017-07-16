@@ -27,11 +27,8 @@ doc_term$dimnames$Docs <- podcastData$episode
 tf_idf <- weightTfIdf(m = doc_term, normalize = TRUE)
 tf_idf_mat <- as.matrix(tf_idf)
 
-tf_idf_mat
 
-
-
-
+write.matrix(tf_idf_mat, file=""
 
 
 
