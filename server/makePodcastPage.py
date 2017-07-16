@@ -3,12 +3,13 @@
 import json
 import requests # Available from: http://docs.python-requests.org/en/master
 import subprocess
+import copy
 
 def make_podcast_page(terms):
     podcastList = subprocess.check_output('Rscript ../tfidf/findMostSimilarPodcast.R ' + str(terms), shell=True)
     print "postcastList: " + str(podcastList)
-#    t = os.system('Rscript ../tfidf/findMostSimilarPodcast.R ' + str(terms))
-#    print "t: " + str(t)
+
+    split_terms = terms.split(',')
 
     returnString = """
 <!DOCTYPE html>
@@ -38,24 +39,25 @@ def make_podcast_page(terms):
 
     <div class="container filter-section">
       <div class="row text-center">
-        <div class="inline-button"><button type="button" class="btn btn-secondary btn-sm">New business</button></div>
-        <div class="inline-button"><button type="button" class="btn btn-secondary btn-sm">Passive Income </button></div>
-        <div class="inline-button"><button type="button" class="btn btn-secondary btn-sm">Advertising </button></div>
-        <div class="inline-button"><button type="button" class="btn btn-secondary btn-sm">Startup</button></div>
-        <div class="inline-button"><button type="button" class="btn btn-secondary btn-sm">Marketing</button></div>
-        <div class="inline-button"><button type="button" class="btn btn-secondary btn-sm">Taxes</button></div>
-        <div class="inline-button"><button type="button" class="btn btn-secondary btn-sm">Hiring</button></div>
-        <div class="inline-button"><button type="button" class="btn btn-secondary btn-sm">Management</button></div>
+""" + makeButton("Business", split_terms) + """
+""" + makeButton("Income", split_terms) + """
+""" + makeButton("Passive", split_terms) + """
+""" + makeButton("Advertising", split_terms) + """
+""" + makeButton("Startup", split_terms) + """
+""" + makeButton("Marketing", split_terms) + """
+""" + makeButton("Taxes", split_terms) + """
+""" + makeButton("Hiring", split_terms) + """
+""" + makeButton("Management", split_terms) + """
         <br>
-        <div class="inline-button"><button type="button" class="btn btn-secondary btn-sm">Finding investors</button></div>
-        <div class="inline-button"><button type="button" class="btn btn-secondary btn-sm">Leasing</button></div>
-        <div class="inline-button"><button type="button" class="btn btn-secondary btn-sm">Distributing</button></div>
-        <div class="inline-button"><button type="button" class="btn btn-secondary btn-sm">Production</button></div>
-        <div class="inline-button"><button type="button" class="btn btn-secondary btn-sm">Insurance</button></div>
-        <div class="inline-button"><button type="button" class="btn btn-secondary btn-sm">Safety</button></div>
-        <div class="inline-button"><button type="button" class="btn btn-secondary btn-sm">Hiring</button></div>
-        <div class="inline-button"><button type="button" class="btn btn-secondary btn-sm">Contracts</button></div>
-        <div class="inline-button"><button type="button" class="btn btn-secondary btn-sm">HIPAA</button></div>
+""" + makeButton("Investors", split_terms) + """
+""" + makeButton("Leasing", split_terms) + """
+""" + makeButton("Distributing", split_terms) + """
+""" + makeButton("Production", split_terms) + """
+""" + makeButton("Insurance", split_terms) + """
+""" + makeButton("Safety", split_terms) + """
+""" + makeButton("Hiring", split_terms) + """
+""" + makeButton("Contracts", split_terms) + """
+""" + makeButton("HIPAA", split_terms) + """
       </div>
     </div>
 
@@ -159,4 +161,24 @@ def make_podcast_page(terms):
 </body>
 </html>
 """
+    return returnString
+
+
+def makeButton(buttonName, currentTerms):
+    newTerms = copy.deepcopy(currentTerms)
+    button_active = False
+
+    returnString  = '        <div class="inline-button"><a href="http://localhost:8080/'
+    if buttonName in newTerms: 
+      newTerms.remove(buttonName)
+      button_active = True
+    else:
+      newTerms.append(buttonName)
+    returnString += ",".join(newTerms) 
+    returnString += '" class="btn '
+    if button_active: 
+      returnString += 'btn-primary btn-sm active'
+    else:
+      returnString += 'btn-secondary btn-sm'
+    returnString += '">' + buttonName + '</a></div>'
     return returnString
