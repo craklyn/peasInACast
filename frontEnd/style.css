@@ -1,8 +1,8 @@
 body {
   max-width: 433px;
   margin-left: 100px;
-  margin-top: 20px;
-  background-size: 433px,881px;
+  margin-top: 100px;
+  /*background-size: 433px,881px;*/
   background-repeat: no-repeat;
   background-position: left 100px top 20px;
 
@@ -12,7 +12,8 @@ body {
 }
 
 #overlay{
-width:100%;
+margin-left: 100px;
+width:432px,881px;
 position:absolute; /*You may also use fixed depending on your needs.*/
 left:0;
 top:0; /*If you want it at the bottom you probably want bottom:0 instead*/
@@ -33,5 +34,11 @@ z-index: 999;
 font-size: 30px;
 text-align: center;
 
+
+}
+.row {
+  margin-left: 30px;
+  margin-top: 20px;
+  
 
 }
