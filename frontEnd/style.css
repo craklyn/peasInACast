@@ -5,6 +5,7 @@ body {
   /*background-size: 433px,881px;*/
   background-repeat: no-repeat;
   background-position: left 100px top 20px;
+  
 
 
 
@@ -57,4 +58,14 @@ font-weight: 400;
 .container {
   margin-top: 20px;
 
+}
+
+.filter-section > .row {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.filter-section > .row > .col-xs-4 {
+  display: inline-block;
+  float: none;
 }
