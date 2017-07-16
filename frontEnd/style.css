@@ -53,8 +53,9 @@ pointer-events: none;
 }
 
 .row h4{
-  color: #111;
+  color: #222;
   font-size: 16px;
+  font-weight: 600;
 }
 
 .section-header{
@@ -83,8 +84,6 @@ pointer-events: none;
 }
 
 
-
-
 ::-webkit-scrollbar {
   width: 0px;  /* remove scrollbar space */
   background: transparent;  /* optional: just make scrollbar invisible */
@@ -100,7 +99,7 @@ pointer-events: none;
   float: none;
 }
 
-.btn-secondary {
+/*.btn-secondary {  //alternate button style
   margin-top: 10px;
   background-color: #f9f9f9;
   border: 1px solid #c5c5c5;
@@ -108,15 +107,21 @@ pointer-events: none;
   min-width: 108px;
   margin-right:3px;
   border-radius: 0px;
-}
+}*/
 
-/*  buttons option 1 - blue, left aligned
+/*  buttons option 1 - blue, left aligned */
 .btn-secondary {
   margin-top: 10px;
   background-color: lightblue;
   font-size: 13px;
+  border-radius:0px;
  
-}*/
+}
+
+.btn-secondary:hover{
+  background-color: #a1cedc;
+
+}
 
 .btn-sm {
   background-color: #ececec;
@@ -131,6 +136,6 @@ pointer-events: none;
 }
 
 .btn-sm:hover {
-    background-color: #dadada;
-    color: #111;
+    background-color: #ddd;
+    color: #333;
 }
