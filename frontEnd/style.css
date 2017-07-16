@@ -1,4 +1,9 @@
+body {
+  max-width: 433px;
+}
+
 .jumbotron {
+  max-width: 400 px;
     margin-bottom: 0px;
     background-image: url(images/BusinessImageNoWords.png);
     background-position: 0% 25%;
