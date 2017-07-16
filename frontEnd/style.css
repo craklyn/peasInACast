@@ -1,0 +1,29 @@
+body {
+  max-width: 433px;
+  margin-left: 100px;
+  margin-top: 20px;
+  background-size: 433px,881px;
+  background-repeat: no-repeat;
+  background-position: left 100px top 20px;
+
+
+
+
+}
+
+.jumbotron {
+  max-width: 375 px;
+    margin-bottom: 0px;
+    background-image: url(images/BusinessImageNoWords.png);
+    background-position: center;
+    background-size: 375px,160px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 30px;
+}
+.jumbotron h1{
+font-size: 30px;
+text-align: center;
+
+
+}
