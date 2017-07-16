@@ -2,6 +2,12 @@ body {
   max-width: 433px;
   margin-left: 100px;
   margin-top: 20px;
+  background-size: 433px,881px;
+  background-repeat: no-repeat;
+  background-position: left 100px top 20px;
+
+
+
 
 }
 
