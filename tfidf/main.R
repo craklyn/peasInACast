@@ -10,6 +10,11 @@ library(ggplot2)
 library(RColorBrewer)
 library(wordcloud)
 
+source("HavenAPI.R")
+getPodcastTranscripts("podcastJobIdMap.txt")
+
+readFile(podcastJobIdMap.txt)
+
 episodes <- list.files("Data")
 podcastData <- sapply(episodes, function(x) paste(readLines(paste0("Data/",x), encoding="UTF-8"), collapse=' '))
 
