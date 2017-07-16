@@ -27,6 +27,17 @@ def make_podcast_page(terms):
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="http://localhost:9000/style.css">
+
+<script>
+  function playAudio(audio) {
+    var player=document.getElementById('player');
+    var sourceMp3=document.getElementById('sourceMp3');
+    sourceMp3.src=audio;
+
+    player.load();
+    player.play();
+</script>
+
 </head>
 
 
@@ -213,8 +224,8 @@ def makePodcastEntries(audioFile):
       <div class="row">""" + PodcastTagline + """</div>
       <div class="row">Published: """ + PublishDate + """</div>
       <div class="row">
-        <button type="button" class="btn btn-secondary">Play</button>
-        <button type="button" class="btn btn-secondary">Preview</button>
+        <button type="button" class="btn btn-secondary" onclick="playAudio('""" + PlayFile + """')">Play</button>
+        <button type="button" class="btn btn-secondary" onclick="playAudio('""" + TrimmedPlayFile + """')">Preview</button>
         <button type="button" class="btn btn-secondary">Save</button>
       </div>
       <hr>
