@@ -11,6 +11,14 @@ body {
 
 }
 
+#overlay{
+width:100%;
+position:absolute; /*You may also use fixed depending on your needs.*/
+left:0;
+top:0; /*If you want it at the bottom you probably want bottom:0 instead*/
+z-index: 999;
+}
+
 .jumbotron {
   max-width: 375 px;
     margin-bottom: 0px;
