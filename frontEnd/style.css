@@ -12,6 +12,25 @@ body {
 
 }
 
+.head-image{
+  height: 160px;
+  margin-bottom: 0px;
+  background-image: url(images/BusinessImageNoWords.png);
+  background-position: center;
+  background-size: 375px,160px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 30px;
+  
+}
+
+.head-image h1 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 160px;
+}
+
 #overlay{
 margin-left: 100px;
 width:432px,881px;
@@ -22,7 +41,7 @@ z-index: 999;
 pointer-events: none;
 }
 
-.jumbotron {
+/*.jumbotron {
   max-width: 375 px;
     margin-bottom: 0px;
     background-image: url(images/BusinessImageNoWords.png);
@@ -38,7 +57,7 @@ text-align: center;
 font-weight: 400;
 
 
-}
+}*/
 .row {
   margin-left: 30px;
   max-width: 355px;
