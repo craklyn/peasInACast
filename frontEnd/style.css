@@ -4,13 +4,22 @@ body {
   margin-top: 108px;
   /*background-size: 433px,881px;*/
   background-repeat: no-repeat;
-  background-position: left 100px top 20px;
+  background-position: left 130px top 106px;
+  background-size: 375px, 912px;
+  
   
 
 
 
 
 }
+
+.homepageimage{
+  width: 375px;
+  height: 912px;
+  margin-left: 30px;
+}
+
 
 .head-image{
   height: 160px;
@@ -139,3 +148,60 @@ pointer-events: none;
     background-color: #ddd;
     color: #333;
 }
+
+/*home page css*/
+.rectangle{
+  margin-top: 100px;
+  margin-left: 28px;
+  width:375px;
+  height:60px;
+  background: #f9f9f9;
+  border-bottom: 1px solid;
+  border-bottom-color: #d5d5d5;
+  overflow: hidden;
+ 
+}
+
+.glyphicon-menu-hamburger {
+  color:#7f7f7f;
+  font-size: 20px;
+  margin-left: 14px;
+  margin-top: 20px;
+}
+
+.searchbox{
+  background:white;
+  margin-left: 50px;
+  margin-top:-31px;
+  border: 1px solid #b1b1b1;
+  width: 308px;
+  height:34px;
+}
+
+.searchbox p {
+  margin-top: 7px;
+  margin-left: 12px;
+  color: #888;
+
+}
+
+/*.carousel > .row {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.carousel> .row > .col-xs-4 {
+  display: inline-block;
+  float: none;
+}
+.carousel {
+  overflow: scroll;
+  overflow-x: hidden;
+
+}
+
+.carousel > .row > .inline-button {
+  display: inline-block;
+  float: none;
+}
+*/
