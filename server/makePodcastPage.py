@@ -30,12 +30,17 @@ def make_podcast_page(terms):
 
 <script>
   function playAudio(audio) {
+
     var player=document.getElementById('player');
     var sourceMp3=document.getElementById('sourceMp3');
     sourceMp3.src=audio;
 
-    player.load();
-    player.play();
+    if(player.paused) {
+      player.load();
+      player.play();
+    }
+    else {player.pause()}
+  }
 </script>
 
 </head>
@@ -176,6 +181,11 @@ def make_podcast_page(terms):
   </div>
 </div>
 
+<audio id="player">
+    <source id="sourceMp3" src="" type="audio/mp3">
+    Your browser does not support the audio element.
+</audio>
+
 </body>
 </html>
 """
@@ -214,8 +224,8 @@ def makePodcastEntries(audioFile):
     EpisodeName = thePodcast['EpisodeName'].iloc[0]
     PodcastTagline = thePodcast['PodcastTagline'].iloc[0]
     PublishDate = thePodcast['PublishDate'].iloc[0]
-    PlayFile = thePodcast['PlayFile'].iloc[0]
-    TrimmedPlayFile = thePodcast['TrimmedPlayFile'].iloc[0]
+    PlayFile = 'http://localhost:9000/' + str(thePodcast['PlayFile'].iloc[0])
+    TrimmedPlayFile = 'http://localhost:9000/' + str(thePodcast['TrimmedPlayFile'].iloc[0])
     fileName = thePodcast['fileName'].iloc[0]
 
     returnVal += """
