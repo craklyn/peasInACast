@@ -73,14 +73,14 @@ drawPCHisto_v2 <-function(PCNumber, theTitle) {
 englishWords <- readLines('wordsEn.txt')
 tf_idf_mat <- tf_idf_mat[,(colnames(tf_idf_mat) %in% englishWords)]
 
+png('podcastView.png', width = 5, height = 5.5, units = 'in', res = 300)
 par(mfrow = c(3,2))
 par(mar=c(5.1,4.1,8.1,1.1))
-drawPCHisto(29, "Masters of Scale:\nBeauty of a Bad Idea")
+drawPCHisto_v2(29, "Masters of Scale:\nBeauty of a Bad Idea")
 drawPCHisto_v2(28, "How I Built This:\nWhole Foods Market")
-drawPCHisto(14, "Smart Passive Income:\nHow to Avoid the Slimy Sell")
+drawPCHisto_v2(14, "Smart Passive Income:\nHow to Avoid the Slimy Sell")
 mtext("When keywords are spoken during podcasts", side = 3, line = -2, outer = TRUE)
 
-dev.copy(png,filename="podcastView.png");
 dev.off ()
 
 
