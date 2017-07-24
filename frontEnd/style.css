@@ -6,12 +6,6 @@ body {
   background-repeat: no-repeat;
   background-position: left 130px top 106px;
   background-size: 375px, 912px;
-  
-  
-
-
-
-
 }
 
 .homepageimage{
@@ -184,28 +178,6 @@ pointer-events: none;
   color: #888;
 
 }
-
-/*.carousel > .row {
-  overflow-x: auto;
-  white-space: nowrap;
-}
-
-.carousel> .row > .col-xs-4 {
-  display: inline-block;
-  float: none;
-}
-.carousel {
-  overflow: scroll;
-  overflow-x: hidden;
-
-}
-
-.carousel > .row > .inline-button {
-  display: inline-block;
-  float: none;
-}
-*/
-
 
 map:focus {outline: 0;}
 area:focus {outline: 0;}
