@@ -16,8 +16,21 @@ for (arg in args) {
 
 library(proxy)
 podcastDist <- dist(x=tf_idf_mat, y=t(searchVec), method = 'cosine')
-results <- paste(labels(podcastDist)[[1]][order(podcastDist)], 
-                 podcastDist[order(podcastDist)], sep=', ')
-cat(paste0(results[1:10], collapse='\n'))
+ranking <- order(podcastDist)
+results <- paste(labels(podcastDist)[[1]][ranking], 
+                 podcastDist[ranking], sep=', ')
+#cat(paste0(results[1:10], collapse='\n'))
+
+englishWords <- readLines('wordsEn.txt')
+tf_idf_mat <- tf_idf_mat[,(colnames(tf_idf_mat) %in% englishWords)]
+
+for(i in 1:10) {
+  cat(results[i])
+  cat(",")
+  podcastWords <- tf_idf_mat[ranking[i],]
+  cat(names(podcastWords[order(-podcastWords)][1:5]))
+  if(i != 10) {cat('\n')}
+}
 
 q()
+
