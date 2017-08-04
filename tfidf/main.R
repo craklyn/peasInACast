@@ -51,7 +51,7 @@ drawPCHisto <-function(PCNumber, theTitle) {
   frame()
   mtext(paste0("Podcast keywords:\n", 
                paste(specialKeywords[1:5], specialKeywords[6:10], collapse='\n')),
-        line=-1, cex=0.7)
+        line=-3, cex=0.7)
 }
 drawPCHisto_v2 <-function(PCNumber, theTitle) {
   keyWords <- c('startup', 'hire', 'hiring', 'hired', 'investors')
@@ -64,7 +64,7 @@ drawPCHisto_v2 <-function(PCNumber, theTitle) {
   frame()
   mtext(paste0("Podcast keywords:\n", 
                paste(specialKeywords[1:5], specialKeywords[6:10], collapse='\n')),
-        line=-1, cex=0.7)
+        line=-3, cex=0.7)
   hist(whichWords, xlab='', ylab='Freq', main=theTitle, breaks=10)
 }
 
@@ -73,11 +73,11 @@ drawPCHisto_v2 <-function(PCNumber, theTitle) {
 englishWords <- readLines('wordsEn.txt')
 tf_idf_mat <- tf_idf_mat[,(colnames(tf_idf_mat) %in% englishWords)]
 
-png('podcastView.png', width = 5, height = 5.5, units = 'in', res = 300)
+png('podcastView.png', width = 5, height = 8.5, units = 'in', res = 300)
 par(mfrow = c(3,2))
 par(mar=c(5.1,4.1,8.1,1.1))
 drawPCHisto_v2(29, "Masters of Scale:\nBeauty of a Bad Idea")
-drawPCHisto_v2(28, "How I Built This:\nWhole Foods Market")
+drawPCHisto(28, "How I Built This:\nWhole Foods Market")
 drawPCHisto_v2(14, "Smart Passive Income:\nHow to Avoid the Slimy Sell")
 mtext("When keywords are spoken during podcasts", side = 3, line = -2, outer = TRUE)
 

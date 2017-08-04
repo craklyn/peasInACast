@@ -20,7 +20,7 @@ def make_podcast_page(terms):
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Divining Pod</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="http://localhost:9000/favicon.ico">

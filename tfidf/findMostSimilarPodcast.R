@@ -22,7 +22,6 @@ results <- paste(labels(podcastDist)[[1]][ranking],
 #cat(paste0(results[1:10], collapse='\n'))
 
 englishWords <- readLines('wordsEn.txt')
-tf_idf_mat <- tf_idf_mat[,(colnames(tf_idf_mat) %in% englishWords)]
 
 for(i in 1:10) {
   cat(results[i])
